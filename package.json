@@ -1,0 +1,43 @@
+{
+  "name": "vscode-photon-theme",
+  "displayName": "Photon Theme",
+  "description": "Official photon.sh dark and light themes for Visual Studio Code",
+  "version": "0.1.0",
+  "publisher": "photonsh",
+  "bugs": {
+    "url": "https://github.com/photonsh/vscode-photon-theme/issues"
+  },
+  "homepage": "https://photon.sh",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/photonsh/vscode-photon-theme"
+  },
+  "engines": {
+    "vscode": "^1.12.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Photon Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/photon-dark.json"
+      },
+      {
+        "label": "Photon Light",
+        "uiTheme": "vs",
+        "path": "./themes/photon-light.json"
+      }
+    ]
+  },
+  "icon": "icon.png",
+  "keywords": [
+    "dark",
+    "light",
+    "theme",
+    "photon",
+    "space"
+  ]
+}
